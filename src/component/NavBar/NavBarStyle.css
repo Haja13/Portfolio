@@ -1,0 +1,52 @@
+.contenu {
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+    position: fixed;
+    
+}
+.contenu .logo{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.contenu .menu nav {
+    /* background-color: rgb(255, 0, 13); */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    width: 400px;
+    padding-right: 20px;
+}
+
+.contenu .menu .link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width:1024px) {
+    .contenu{
+        position: fixed;
+        font-size: 1.1em;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        background-color: rgb(210, 212, 212, 0.2);
+        
+
+    }
+    .contenu .logo {
+        color: white;
+        display: none;
+    }
+    
+   
+   
+
+}

@@ -1,0 +1,10 @@
+.global{
+    /* background-color: red; */
+    background-image: url("sary/fond2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll; 
+    
+}

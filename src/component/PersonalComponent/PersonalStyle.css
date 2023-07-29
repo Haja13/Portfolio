@@ -1,0 +1,61 @@
+.contenue {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    
+}
+.contenue .trait{
+    background-color: white;
+    width: 150px;
+    height: 8px;
+}
+.contenue .description{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.contenue .description .paragraphe {
+    color: white;
+    margin:0;
+}
+.sary{
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    margin-right: 180px; 
+
+}
+.contenue .paragraphe .nom {
+    font-size: 2em;
+    font-weight: bolder;
+    width: 100%;
+    font-family: sans-serif;
+} 
+.contenue .paragraphe .nom-descri {
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:1024px){
+    .contenue {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        align-items: center;
+        
+    }
+    .contenue .description .trait {
+        display: none;
+    }
+    .contenue .sary{
+        width: 220px;
+        height: 220px;
+        margin: 0;
+        border-radius: 10px;
+    }
+}
+.contenue .separation  .trait2 {
+    width: 100%;
+    color: #fff;
+    height: 20px;
+}
