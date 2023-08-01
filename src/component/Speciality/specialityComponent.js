@@ -1,7 +1,5 @@
 import React from "react";
 import './SpecialityStyle.css'
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faEnvelope, faLaptopCode,faLaptopFile, faHippo, faUser,faMobile} from '@fortawesome/free-solid-svg-icons'
 import frontEnd01 from  "../../../src/sary/reactJS.png"
 import frontEnd02 from  "../../../src/sary/codeigniter.png"
 import langage01 from  "../../../src/sary/JS.png"
@@ -12,7 +10,9 @@ import langage03 from  "../../../src/sary/typescript-1.png"
 import dataBase01 from  "../../../src/sary/MySQL.png"
 import dataBase02 from  "../../../src/sary/PostgresSQL.png"
 import Postman from  "../../../src/sary/postman.png"
+import gitkraken from  "../../../src/sary/gitkraken.png"
 import backend from  "../../../src/sary/NEST.jpg"
+import reactnative from  "../../../src/sary/reactnative.png"
 
 const SpecialityComponent = () => {
     return(
@@ -32,17 +32,17 @@ const SpecialityComponent = () => {
 
             <div className="block">
                 {/* <img src={backend} className="front01" /> */}
-                <img src={frontEnd01} className="front01" />
+                <img src={frontEnd01} className="front01" alt="react_js" />
 
-                <img src={frontEnd02} className="front02"  />
-                <img src={frontEnd03} className="front03"  />
-                <img src={frontEnd04} className="front04"  />
+                <img src={frontEnd02} className="front02" alt="codeIgniter"  />
+                <img src={frontEnd03} className="front03" alt="html"  />
+                <img src={frontEnd04} className="front04" alt="css"  />
             </div>
                 <p  className="titre-web02">Back-End </p>
 
 
                 <div className="block">
-                <img src={backend} className="front01" />
+                <img src={backend} className="front01" alt="nest_js" />
                 {/* <img src={frontEnd02} className="front02"  />
                 <img src={frontEnd03} className="front03"  />
                 <img src={frontEnd04} className="front04"  /> */}
@@ -55,7 +55,7 @@ const SpecialityComponent = () => {
             </div>
                 {/* <p className="titre-web01">I'm specialize in javascripte technology </p> */}
                 <div className="block">
-                <img src={frontEnd02} className="front01"   />
+                <img src={reactnative} className="front01" alt="reactnative"   />
                 </div>
 
 
@@ -67,9 +67,9 @@ const SpecialityComponent = () => {
                 <p>Programming langage</p>
             </div>
             <div className="block">
-                    <img src={langage01} className="front01" />
-                    <img src={langage02}  className="front02" />
-                    <img src={langage03}  className="front02" />
+                    <img src={langage01} className="front01" alt="javascript" />
+                    <img src={langage02}  className="front02" alt="php" />
+                    <img src={langage03}  className="front02" alt="typescript" />
 
             </div>
             <div className="WebDescription">
@@ -78,8 +78,8 @@ const SpecialityComponent = () => {
                 <p className="">Data Base  </p>
             </div>
                 <div className="block">
-                    <img src={dataBase01} className="front01" />
-                    <img src={dataBase02}  className="front02" />
+                    <img src={dataBase01} className="front01"  alt="musql"/>
+                    <img src={dataBase02}  className="front02" alt="phpadmin" />
                     {/* <img src={langage03}  className="front02" /> */}
 
             </div>
@@ -89,7 +89,8 @@ const SpecialityComponent = () => {
                 <p className="">Others </p>
             </div>
             <div className="block">
-                    <img src={Postman} className="front01" />
+                    <img src={Postman} className="front01" alt="postman" />
+                    <img src={gitkraken} className="front01" alt="gitkraken"/>
                    
 
             </div>
