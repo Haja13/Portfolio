@@ -1,7 +1,7 @@
 import React from "react";
 import "./contactStyle.css"
 import { FaGithub } from "react-icons/fa6";
-import { FaLinkedinIn, FaHome, FaBlogger } from "react-icons/fa6";
+import { FaLinkedinIn} from "react-icons/fa6";
 import { MdAttachEmail,MdContactPhone } from "react-icons/md";
 const Contact = () => {
   const  handleClick = () => {

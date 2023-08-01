@@ -1,6 +1,5 @@
 import React from "react";
 import './NavBarStyle.css';
-import {Link} from 'react-router-dom'
 const  NavBarComponent = () => {
     return(
         <div className="contenu">

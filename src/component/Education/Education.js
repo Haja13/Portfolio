@@ -1,6 +1,5 @@
 import React from "react";
 import "./EducationStyle.css"
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 
 const Education = () =>{
