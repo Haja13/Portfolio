@@ -17,7 +17,7 @@ const PersonalComponent = () =>{
 
             </div>
             <div>
-                <img src={Sary} className="sary" alt="photo" />
+                <img src={Sary} className="sary" alt="village" />
             </div>
 
 
