@@ -1,6 +1,5 @@
-.speciality{
+/* .speciality{
     color: #fff;
-    /* background-color: rgb(210, 212, 212, 0.2); */
     width: 900px;
     height: 1250px;
     margin-left: 50px;
@@ -81,7 +80,6 @@
     margin-left: 110px;
 }
 .titre-web02 {
-    /* margin-top: 25px; */
     font-size: 20px;
     font-family: serif;
     font-weight: bolder;
@@ -116,4 +114,101 @@
    .speciality .title{
     text-align: center;
    }
-}
+   .WebDescription .point{
+    display: none;
+   }
+   .WebDescription .descri{
+    margin: 0 28px;
+   }
+   .titre-web02{
+    margin:  28px;
+   }
+   .block {
+    margin: 0;
+   
+   }
+} */
+
+/* Speciality Component Styles */
+
+.speciality {
+    margin: 20px;
+  }
+  
+  .trait {
+    width: 40px;
+    height: 3px;
+    background-color: #f1f0f0;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .title p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .WebDescription {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .MobileDescription {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .WebDescription .point,
+  .MobileDescription .point {
+    width: 10px;
+    height: 10px;
+    background-color: #eceaea;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .WebDescription p,
+  .MobileDescription p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: aqua;
+  }
+  
+  .block img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #fff;
+  } */
+  .block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .block img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add additional styles if needed for different screen sizes */
+  

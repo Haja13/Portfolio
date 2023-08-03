@@ -25,7 +25,7 @@ const SpecialityComponent = () => {
                 {/* <FontAwesomeIcon icon={faLaptopCode} className="icon" /> */}
                 <div className="point"></div>
 
-                <p>Web developpement</p>
+                <p className="descri">Web developpement</p>
             </div>
                 {/* <p className="titre-web01" >I'm specialize in javascripte technology </p> */}
                 <p className="titre-web02">Front-End </p>

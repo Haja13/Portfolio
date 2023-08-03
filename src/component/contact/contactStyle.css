@@ -1,5 +1,4 @@
-.Contact {
-    /* background-color: aqua; */
+/* .Contact {
 }
 .Contact .title{
     font-size: 50px;
@@ -20,35 +19,27 @@
 
 }
 .bloc{
-    /* background-color: rgb(255, 0, 0); */
     display: flex;
     margin-right: 0;
     align-items: center;
 }
 .block02{
-    /* background-color: blue; */
     display: flex;
     align-items: center;
 }
 .block03{
-    /* background-color: blue; */
     display: flex;
     align-items: center;
 }
 .block04{
-    /* background-color: blue; */
     display: flex;
     align-items: center;
 }
 @media screen and (max-width:1024px) {
     .Contact {
-        /* text-align: center; */
-        /* width: 100%; */
-        /* margin: 0; */
-        /* background-color: blue; */
+      
     }
     .Contact .title{
-        /* background-color: #161616; */
         margin-left: 180px;
     }
     .Contact .coordonee{
@@ -56,4 +47,61 @@
 
     }
    
-}
+} */
+/* contactStyle.css */
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .coordonee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .bloc:hover {
+    background-color: #0056b3;
+  }
+  
+  .bloc a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .block02, .block03, .block04 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styles if needed */
+  
+  

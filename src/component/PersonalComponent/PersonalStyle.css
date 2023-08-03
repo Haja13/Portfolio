@@ -1,7 +1,8 @@
-.contenue {
+/* .contenue {
     display: flex;
     margin-top: 80px;
     justify-content: space-around;
+    
     
 }
 .contenue .trait{
@@ -40,8 +41,7 @@
     .contenue {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 80px;
-        align-items: center;
+        margin-top: 50px;
         
     }
     .contenue .description .trait {
@@ -53,9 +53,76 @@
         margin: 0;
         border-radius: 10px;
     }
+    .contenue .description .paragraphe{
+        width: 78%;
+        text-align: center;
+    }
 }
-.contenue .separation  .trait2 {
-    width: 100%;
-    color: #fff;
-    height: 20px;
-}
+ */
+/* Styles pour la classe .contenue */
+.contenue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+  }
+  
+  /* Styles pour la classe .description */
+  .description {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Disposer les éléments en colonne */
+    align-items: center;
+  }
+  
+  /* Styles pour la classe .trait */
+  .trait {
+    height: 2px;
+    width: 50px;
+    background-color: #e2dede;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour la classe .paragraphe */
+  .paragraphe {
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  /* Styles pour la classe .nom */
+  .nom {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styles pour la classe .nom-descri */
+  .nom-descri {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Styles pour la classe .separation */
+  .separation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styles pour la classe .trait2 */
+  .trait2 {
+    height: 2px;
+    width: 100px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Styles pour la classe .sary */
+  .sary {
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+  }
+  

@@ -1,8 +1,7 @@
-.education {
+/* .education {
     color: #fff;
     width: 1050px;
     height: 700px;
-    /* background-color: #c90e0e; */
     margin-left: 300px;
 
  
@@ -36,7 +35,6 @@
 .paragraphe01 {
     margin-top: -10PX;
     margin-left: 150px;
-    /* background-color: aqua; */
     width: 400px;
     font-family: serif;
     font-size: 1.2em;
@@ -59,7 +57,6 @@
 .education .uniContenu .block03{
     display: flex;
     align-items: center;
-    /* margin: 0 80px; */
 }
 .trait {
     width: 100%;
@@ -69,7 +66,6 @@
 }
 
 .education .uniContenu .trai02{
-    /* background-color: #161515; */
     width: 3px;
     height: 250px;
     margin-left: 15px;
@@ -77,8 +73,6 @@
     margin-bottom: 10px;
 }
 .education .uniContenu .universite{
-    /* display: flex; */
-    /* background-color: #353635; */
     align-items: center;
 }
 .education .uniContenu .universite p {
@@ -97,7 +91,6 @@
         text-align: center;
         width: 100%;
         margin: 0;
-        /* background-color: blue; */
     }
     .education .paragraphe{
         width: 700px;
@@ -110,11 +103,69 @@
         align-items: center;
     }
     .experience .block .title01{
-        /* background-color: black; */
         margin-right: 50px;
     }
     .experience  .paragraphe01{
         margin-right: 80px;
-        /* background-color: yellowgreen; */
     }
-}
+} */
+/* Education Styles */
+
+.education {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .trait {
+    border-top: 2px solid #333;
+    margin-bottom: 10px;
+  }
+  
+  .block {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .point {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .title01 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .paragraphe01 {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Experience Section */
+  
+  .experience {
+    margin-top: 20px;
+  }
+  
+  /* Stack Section */
+  
+  .experience .block:last-child {
+    margin-top: 10px;
+  }
+  
+  /* Additional Styling (you can modify as needed) */
+  
+  #section2 {
+    margin-top: 50px;
+  }
+  
