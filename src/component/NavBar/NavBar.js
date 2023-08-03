@@ -1,10 +1,12 @@
 import React from "react";
 import './NavBarStyle.css';
+import Logo from "../../../src/sary/logo2.png"
+
 const  NavBarComponent = () => {
     return(
         <div className="contenu">
             <div className="logo">
-                <p >Developer </p>
+            <img src={Logo} className="photo" alt="village"/>
             </div>
             <div className="menu">
                 <nav>
