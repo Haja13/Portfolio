@@ -51,7 +51,7 @@ const SpecialityComponent = () => {
                 {/* <FontAwesomeIcon icon={faMobile} className="icon" />  */}
                 <div className="point"></div>
 
-                <p>Mobile  Developpement</p>
+                <p className="mobile">Mobile  Developpement</p>
             </div>
                 {/* <p className="titre-web01">I'm specialize in javascripte technology </p> */}
                 <div className="block">

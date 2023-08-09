@@ -66,7 +66,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   
   /* Styles pour la classe .description */
@@ -88,7 +88,7 @@
   /* Styles pour la classe .paragraphe */
   .paragraphe {
     margin-bottom: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   
   /* Styles pour la classe .nom */

@@ -11,7 +11,7 @@ const Education = () =>{
                 </div>
                         <div className="block">
                             <div className="point"></div>
-                            <p className="title01">Institu Superieur Polytechnique de Madagascar </p>
+                            <p className="title01">Institut Superieur Polytechnique de Madagascar </p>
                         </div>
                     <p className="paragraphe01">I am studying at the Polytechnic Higher Institute of Madagascar antsobolo in  computer system electronics and artificial intelligence so far</p>
                 <div className="title">
