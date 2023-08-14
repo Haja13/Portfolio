@@ -63,9 +63,9 @@
 .contenue {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 20px;
+    /* padding: 0 200px; */
     /* background-color: aqua; */
   }
   
@@ -73,21 +73,27 @@
   .description {
     flex: 1;
     display: flex;
+    /* background-color: aqua; */
     flex-direction: column; /* Disposer les éléments en colonne */
     align-items: center;
+    margin-top: 80px;
+    width: 400px;
+    margin-left: 200px;
   }
   
   /* Styles pour la classe .trait */
   .trait {
     height: 2px;
-    width: 50px;
+    width: 200px;
     background-color: #e2dede;
     margin-bottom: 10px;
+    /* margin-left: -300px; */
   }
   
   /* Styles pour la classe .paragraphe */
   .paragraphe {
     margin-bottom: 20px;
+    
     /* background-color: #fff; */
   }
   
@@ -95,34 +101,38 @@
   .nom {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #fdfbfb;
   }
   
   /* Styles pour la classe .nom-descri */
   .nom-descri {
     font-size: 16px;
-    color: #666;
+    color: #cac8c8;
   }
   
   /* Styles pour la classe .separation */
   .separation {
     flex: 1;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    display: none;
   }
   
   /* Styles pour la classe .trait2 */
-  .trait2 {
+  /* .trait2 {
     height: 2px;
     width: 100px;
     background-color: #f8f8f8;
-  }
+  } */
   
   /* Styles pour la classe .sary */
   .sary {
     margin-top: 20px;
     width: 220px;
     height: 220px;
+    margin-top: 80px;
+    margin-right: 300px;
+    border-radius: 20px;
   }
   

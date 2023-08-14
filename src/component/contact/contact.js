@@ -10,7 +10,7 @@ const Contact = () => {
         window.location.href = 'https://mail.google.com/mail/u/0/#inbox';
       };
     return(
-        <div className="Contact">
+        <div className="Contact" id="contact">
             <p className="title">Contact </p>
             <div className="coordonee">
                 {/* <div className="block01">

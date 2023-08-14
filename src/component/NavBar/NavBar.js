@@ -12,8 +12,8 @@ const  NavBarComponent = () => {
                 <nav>
                     <a className="link" href="#section1"> Home </a>
                     <a  className="link" href ="#section2"> About </a>
-                    <a className="link" href ="#section3"> Contact  </a>
-                    <a  className="link" href ="#section4"> Blog </a>
+                    <a className="link" href ="#contact"> Contact  </a>
+                    <a  className="link" href ="#section2"> Blog </a>
 
                 </nav>
                

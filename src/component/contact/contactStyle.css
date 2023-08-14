@@ -89,6 +89,15 @@
     background-color: #0056b3;
   }
   
+  .block02:hover {
+    background-color: #0056b3;
+  }
+  .block04:hover {
+    background-color: #0056b3;
+  }
+  .block03:hover {
+    background-color: #0056b3;
+  }
   .bloc a {
     text-decoration: none;
     color: white;
@@ -103,6 +112,7 @@
     background-color: #007bff;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
     width: 290px;
 
 
