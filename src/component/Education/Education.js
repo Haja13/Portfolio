@@ -20,7 +20,7 @@ const Education = () =>{
                 <div className="experience">
                         <div className="block">
                             <div className="point"></div>
-                                 <p className="title01" >Fullstack mobile Developer Internaship (STAGE) </p>
+                                 <p className="title01" >frontend mobile Developer Internaship (STAGE) </p>
                          </div>
                                  <p className="paragraphe01">I am mobile Developer at R@ndev team (web agency) </p>
                                  <p className="paragraphe01"> April 2023 - today </p>
