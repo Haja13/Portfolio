@@ -133,7 +133,7 @@
 
 .speciality {
     margin: 20px;
-  }
+  } 
   
   .speciality .trait {
     width: 800px;
@@ -202,7 +202,7 @@
     object-fit: cover;
     background-color: #fff;
   } */
-  .speciality .block {
+  .speciality .block22 {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -217,13 +217,37 @@
     font-weight: bolder;
   }
   
-  .block img {
+  .block22 img {
     width: 100px;
     height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 8px;
     margin-left: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+  @media screen and (max-width:1024px) {
+    .WebDescription{
+      display: flex;
+      text-align: center;
+      /* background-color: aqua; */
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+    }
+    .MobileDescription{
+      /* background-color: blueviolet; */
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+    }
+    .point{
+      display: none;
+    }
+    .titre-web02{
+      /* background-color: blue; */
+      margin: 0;
+    }
+  }
   /* Add additional styles if needed for different screen sizes */
   

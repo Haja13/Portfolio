@@ -30,7 +30,7 @@ const SpecialityComponent = () => {
                 {/* <p className="titre-web01" >I'm specialize in javascripte technology </p> */}
                 <p className="titre-web02">Front-End </p>
 
-            <div className="block">
+            <div className="block22">
                 {/* <img src={backend} className="front01" /> */}
                 <img src={frontEnd01} className="front01" alt="react_js" />
 
@@ -41,7 +41,7 @@ const SpecialityComponent = () => {
                 <p  className="titre-web02">Back-End </p>
 
 
-                <div className="block">
+                <div className="block22">
                 <img src={backend} className="front01" alt="nest_js" />
                 {/* <img src={frontEnd02} className="front02"  />
                 <img src={frontEnd03} className="front03"  />
@@ -54,7 +54,7 @@ const SpecialityComponent = () => {
                 <p className="mobile">Mobile  Developpement</p>
             </div>
                 {/* <p className="titre-web01">I'm specialize in javascripte technology </p> */}
-                <div className="block">
+                <div className="block22">
                 <img src={reactnative} className="front01" alt="reactnative"   />
                 </div>
 
@@ -66,7 +66,7 @@ const SpecialityComponent = () => {
 
                 <p>Programming langage</p>
             </div>
-            <div className="block">
+            <div className="block22">
                     <img src={langage01} className="front01" alt="javascript" />
                     <img src={langage02}  className="front02" alt="php" />
                     <img src={langage03}  className="front02" alt="typescript" />
@@ -77,7 +77,7 @@ const SpecialityComponent = () => {
 
                 <p className="">Data Base  </p>
             </div>
-                <div className="block">
+                <div className="block22">
                     <img src={dataBase01} className="front01"  alt="musql"/>
                     <img src={dataBase02}  className="front02" alt="phpadmin" />
                     {/* <img src={langage03}  className="front02" /> */}
@@ -88,7 +88,7 @@ const SpecialityComponent = () => {
 
                 <p className="">Others </p>
             </div>
-            <div className="block">
+            <div className="block22">
                     <img src={Postman} className="front01" alt="postman" />
                     <img src={gitkraken} className="front01" alt="gitkraken"/>
                    
